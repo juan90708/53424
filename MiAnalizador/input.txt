@@ -1,0 +1,5 @@
+repetir {
+    imprimir("Hola, esto es una prueba");
+    imprimir("El analizador esta funcionando");
+    salir;
+} hasta verdadero;
