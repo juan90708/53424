@@ -1,0 +1,1 @@
+text repetir { imprimir("Error a proposito) salir } hasta falso;
