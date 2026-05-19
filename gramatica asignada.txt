@@ -1,0 +1,13 @@
+Tema: 39658_3
+<programa> ::= { <instrucción> }+
+<instrucción> ::= <repeticion>
+<repeticion> ::= 'repetir' '{' { <sentencia> } '}' 'hasta' <condición> ';'
+<sentencia> ::= { <salida> }+ | <terminar>
+<salida> ::= 'imprimir' '(' <cadena> ')' ';'
+<terminar> ::= 'salir' ';'
+<condición> ::= 'verdadero' | 'falso'
+<cadena> ::= '"' { <carácter> } '"'
+<carácter> ::= <letra> | <dígito> | <símbolo>
+<letra> ::= 'a' | 'b' | ... | 'z' | 'A' | 'B' | ... | 'Z'
+<dígito> ::= '0' | '1' | ... | '9'
+<símbolo> ::= '.' | ',' | '!' | '?' | ':' | ';'
